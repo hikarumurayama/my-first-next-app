@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Button from '@mui/material/Button'
+import Link from "next/link";
+import type { NextPage } from "next";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Button from "@mui/material/Button";
 
 const Home: NextPage = () => {
   return (
@@ -32,9 +32,8 @@ const Home: NextPage = () => {
           </Link>
         </li>
       </ul>
-
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

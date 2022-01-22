@@ -1,9 +1,7 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
 
 const Sample: NextPage = () => {
-    return (
-        <div>this is sample</div>
-    )
-}
+  return <div>this is sample</div>;
+};
 
-export default Sample
+export default Sample;
